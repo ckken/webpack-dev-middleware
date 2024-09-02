@@ -1,10 +1,15 @@
 {
-  "name": "webpack-dev-middleware",
+  "name": "@empjs/webpack-dev-middleware",
   "version": "7.4.2",
   "description": "A development middleware for webpack",
   "license": "MIT",
   "repository": "webpack/webpack-dev-middleware",
   "author": "Tobias Koppers @sokra",
+  "maintainers": [
+    "xuhongbin",
+    "ckken",
+    "doerme"
+  ],
   "homepage": "https://github.com/webpack/webpack-dev-middleware",
   "bugs": "https://github.com/webpack/webpack-dev-middleware/issues",
   "funding": {
@@ -74,6 +79,7 @@
     "@types/mime-types": "^2.1.1",
     "@types/node": "^22.3.0",
     "@types/on-finished": "^2.3.4",
+    "@types/range-parser": "^1.2.7",
     "@webpack-contrib/eslint-config-webpack": "^3.0.0",
     "babel-jest": "^29.3.1",
     "chokidar": "^3.5.1",
